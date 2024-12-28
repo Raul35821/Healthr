@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultas Nutricionales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #333;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #e8f5e9;
+    }
+    .hero h2 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .hero p {
+      margin: 20px 0;
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .hero a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    .hero a:hover {
+      background-color: #45a049;
+    }
+    .services {
+      padding: 20px;
+      text-align: center;
+    }
+    .services h3 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    .services p {
+      margin: 10px 0 30px;
+      font-size: 1rem;
+      color: #555;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Consultas Nutricionales Personalizadas</h1>
+  </header>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#sobre-nosotros">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="hero">
+    <h2>Tu Salud, Nuestra Prioridad</h2>
+    <p>Transforma tu vida con planes de nutrición adaptados a tus necesidades y objetivos.</p>
+    <a href="#contacto">¡Agenda tu consulta ahora!</a>
+  </div>
+  <div id="servicios" class="services">
+    <h3>Nuestros Servicios</h3>
+    <p>Planes de alimentación personalizados, asesorías en línea, y seguimiento continuo.</p>
+  </div>
+  <div id="sobre-nosotros" class="services">
+    <h3>Sobre Nosotros</h3>
+    <p>Somos un equipo de profesionales dedicados a mejorar tu bienestar a través de una nutrición consciente y efectiva.</p>
+  </div>
+  <div id="contacto" class="services">
+    <h3>Contacto</h3>
+    <p>¿Listo para empezar? Escríbenos a: <strong>nutricion@consultas.com</strong></p>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2024 Consultas Nutricionales. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
